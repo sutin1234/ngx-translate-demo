@@ -1,0 +1,17 @@
+
+
+
+<h1>Book Component</h1>
+<p>{{ 'demo.greeting' | translate:{'name':'Andreas'} }}</p>
+
+<h4>Directive: key as attribute</h4>
+<p [translate]="'demo.greeting'" [translateParams]="{name: 'Andreas'}"></p>
+
+<h4>Directive: key as content</h4>
+<p translate [translateParams]="{name: 'Andreas'}">demo.greeting</p>
+
+
+
+<button (click)="useLanguage('en')">en</button>
+<button (click)="useLanguage('de')">de</button>
+<button (click)="useLanguage('th')">th</button>

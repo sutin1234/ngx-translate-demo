@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+<h1>AppComponent</h1>
+  <h2>{{ 'demo.title' | translate }}</h2>
+
+  <h3>Simple translations without parameters</h3>
+
+  <!-- translation: translation pipe -->
+  <h4>Pipe</h4>
+  <p>{{ 'demo.text' | translate }}</p>
+
+  <h4>Directive: key as attribute</h4>
+  <!-- translation: directive (key as attribute)-->
+  <p [translate]="'demo.text'"></p>
+
+  <h4>Directive: key as content</h4>
+  <!-- translation: directive (key as content of element) -->
+  <p translate>demo.text</p>
+
+</div>
+
+<router-outlet></router-outlet>

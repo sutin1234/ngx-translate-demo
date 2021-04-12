@@ -1,0 +1,6 @@
+{
+	"demo.greeting": "สวัสดี {{name}}!",
+	"demo.text": "แปลภาษาด้วย ngx-translate ใน Angular",
+	"demo.text-in-code": "แปลภาษาจากโค้ด",
+	"demo.title": "ตัวอย่างแปลภาษา"
+}
